@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">"Temple Tour "</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">Settings</string>
+    <string name="temptext">This area will contain Recycler View to display wallpapers and songs using fragments</string>
+</resources>

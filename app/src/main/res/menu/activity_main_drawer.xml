@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_songs"
+            android:icon="@drawable/ic_nav_music"
+            android:title="Songs" />
+        <item
+            android:id="@+id/nav_gallery"
+            android:icon="@drawable/ic_menu_gallery"
+            android:title="Wallpapers" />
+        <item
+            android:id="@+id/nav_themes"
+            android:icon="@drawable/ic_nav_theme"
+            android:title="Themes" />
+        <item
+            android:id="@+id/nav_virtual"
+            android:icon="@drawable/ic_nav_virtual"
+            android:title="Virtual Tour" />
+        <item
+            android:id="@+id/nav_history"
+            android:icon="@drawable/ic_nav_history"
+            android:title="History" />
+
+    </group>
+
+    <item android:title="Know More and Share">
+        <menu>
+            <item
+                android:id="@+id/nav_share"
+                android:icon="@drawable/ic_menu_share"
+                android:title="Share" />
+
+            <item
+                android:id="@+id/nav_feedback"
+                android:icon="@drawable/ic_menu_share"
+                android:title="Feedback and Review" />
+        </menu>
+    </item>
+
+</menu>
